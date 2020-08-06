@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Youtube Playlist 2 Moodle Course</title>
+<link rel="stylesheet" type="text/css" href="/static/css/view.css" media="all">
+<script type="text/javascript" src="/static/js/view.js"></script>
+
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="/static/images/top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>Youtube Playlist 2 Moodle Course</a></h1>
+		<form id="form_120068" class="appnitro"  method="post" action="">
+					<div class="form_description">
+			<h2>Youtube Playlist 2 Moodle Course</h2>
+			<p>Merubah playlist youtube menjadi file backup moodle course.
+
+</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Url Youtube atau Playlist-id </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text large" type="text" maxlength="255" value=""/> 
+		</div><p class="guidelines" id="guide_1"><small>misalnya.
+https://www.youtube.com/playlist?list=PLxBhf17jrfxFHnXhQNSLiWjnA2y6pNJ62</small></p> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Nama Kursus atau Materi </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text large" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Nama pendek (shortname course) </label>
+		<div>
+			<input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Deskripsi course </label>
+		<div>
+			<textarea id="element_4" name="element_4" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_4"><small>isi deskripsi lengkap.</small></p> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="120068" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+		<h3>Results:</h3>
+		<div>
+			{{ data }}
+		</div>
+		{% if checked %}
+		<h2>
+		<div>
+			download file ini ->->->-> <a href="./_file_backup.zip">_file_backup.zip</a>
+		</div>
+		</h2>
+		{% endif %}
+	</div>
+	<img id="bottom" src="/static/images/bottom.png" alt="">
+	</body>
+</html>

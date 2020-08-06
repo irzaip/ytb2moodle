@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="6" moduleid="1201" modulename="simplecertificate" contextid="1909">
+  <simplecertificate id="6">
+    <name>Print Sertifikat disini.</name>
+    <intro>&lt;p&gt;Print Sertifikat disini.&lt;br&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1595397181</timemodified>
+    <width>297</width>
+    <height>210</height>
+    <certificateimage>$@NULL@$</certificateimage>
+    <certificatetext>&lt;p&gt;Print Sertifikat disini.&lt;br&gt;&lt;/p&gt;</certificatetext>
+    <certificatetextformat>1</certificatetextformat>
+    <certificatetextx>10</certificatetextx>
+    <certificatetexty>55</certificatetexty>
+    <coursename></coursename>
+    <outcome>0</outcome>
+    <certdate>-2</certdate>
+    <certdatefmt></certdatefmt>
+    <certgrade>0</certgrade>
+    <gradefmt>1</gradefmt>
+    <emailfrom></emailfrom>
+    <emailothers></emailothers>
+    <emailteachers>0</emailteachers>
+    <reportcert>0</reportcert>
+    <delivery>0</delivery>
+    <requiredtime>0</requiredtime>
+    <printqrcode>1</printqrcode>
+    <qrcodefirstpage>1</qrcodefirstpage>
+    <codex>35</codex>
+    <codey>140</codey>
+    <enablesecondpage>0</enablesecondpage>
+    <secondpagex>10</secondpagex>
+    <secondpagey>55</secondpagey>
+    <secondpagetext></secondpagetext>
+    <secondpagetextformat>1</secondpagetextformat>
+    <secondimage>$@NULL@$</secondimage>
+    <timestartdatefmt></timestartdatefmt>
+    <issues>
+    </issues>
+  </simplecertificate>
+</activity>

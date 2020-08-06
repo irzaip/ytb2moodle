@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="5" moduleid="1200" modulename="feedback" contextid="1908">
+  <feedback id="5">
+    <name>Mohon isi ini untuk FeedBack peningkatan kualitas materi ini.</name>
+    <intro>&lt;p&gt;Mohon isi ini untuk FeedBack peningkatan kualitas materi ini.&lt;br&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <anonymous>2</anonymous>
+    <email_notification>0</email_notification>
+    <multiple_submit>0</multiple_submit>
+    <autonumbering>0</autonumbering>
+    <site_after_submit></site_after_submit>
+    <page_after_submit></page_after_submit>
+    <page_after_submitformat>1</page_after_submitformat>
+    <publish_stats>0</publish_stats>
+    <timeopen>0</timeopen>
+    <timeclose>0</timeclose>
+    <timemodified>1595397109</timemodified>
+    <completionsubmit>0</completionsubmit>
+    <items>
+    </items>
+    <completeds>
+    </completeds>
+  </feedback>
+</activity>

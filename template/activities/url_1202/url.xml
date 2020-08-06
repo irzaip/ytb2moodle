@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1046" moduleid="1202" modulename="url" contextid="1910">
+  <url id="1046">
+    <name>YTB: ini materi youtube</name>
+    <intro>&lt;p&gt;https://youtu.be/Dygt07bG40Y&lt;br&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>https://youtu.be/Dygt07bG40Y</externalurl>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1595397257</timemodified>
+  </url>
+</activity>
