@@ -11,29 +11,29 @@ api_key: 'blabla3blablablabla'
 
 # Install local
 
-git clone https://github.com/irzaip/ytb2moodle 
+> git clone https://github.com/irzaip/ytb2moodle 
 
 buat file api.yaml dengan isi api_key: 'blablablabla'
 
-flask run
+> flask run
 
 
 # Deploy to heroku
 
 Pertama harus sudah install heroku-cli dan buat account di heroku.
 
-git clone https://github.com/irzaip/ytb2moodle
+> git clone https://github.com/irzaip/ytb2moodle
 
 buat file api.yaml dengan isi api_key: 'blablablabla'  
 
-pipenv install -r requirements
-pipenv shell
-git init
-git add
-git commit -m "First commit"
-heroku login
-heroku create ytb2moodle
-git push heroku master
+> pipenv install -r requirements
+> pipenv shell
+> git init
+> git add
+> git commit -m "First commit"
+> heroku login
+> heroku create ytb2moodle
+> git push heroku master
 
 
 
